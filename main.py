@@ -15,7 +15,7 @@ kNN = KNN(5, a)
 
 print('wektor')
 
-print(kNN.data[0].vector)
+print(kNN.model[0].vector)
 
 print('size')
 print(kNN.size)

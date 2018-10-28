@@ -1,5 +1,5 @@
 class Data:  # Klasa do przechowywania pojedynczej danej z pliku
-    vector1 = [0, 0, 0, 0]
+    vector = [0, 0, 0, 0]
     label = ""
 
     def __init__(self, data):
