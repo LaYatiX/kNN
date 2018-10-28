@@ -40,7 +40,7 @@ class KNN:
             if predictedLabels[i] == labels[i]:
                 same = same + 1
             i = i + 1
-            
+
         return same/len(labels)
 
     def distance(self, v1, v2):  # zwraca długość pomiedzy wektorami
